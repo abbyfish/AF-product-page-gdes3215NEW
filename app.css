@@ -549,7 +549,7 @@
 			grid-column: 1;
 			grid-row: 1;
 			color:  #8d63aa;
-			text-align: right;
+			text-align: right; 
 		}
 		.purple h3 {
 			grid-column: 2;
