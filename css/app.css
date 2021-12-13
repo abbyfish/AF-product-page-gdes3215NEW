@@ -68,17 +68,22 @@
 /***********ABOUT US****************************/
 .aboutus {
 	text-align: center;
-	background-color: #8d63aa;
-	padding: 3em;
+	background-image:  url(../img/purplepen.jpg);
+	background-position: cover;
+	padding: 6em;
+	color: white;
 }
 .aboutus h1 {
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 82px;
 	margin: 0;
+	color: black;
+
 }
 .aboutus p {
 	font-family: 'Karla', sans-serif;
-	font-size: 24px;
+	font-size: 22px;
+
 
 }
 /***********DIVIDER BARS****************************/
@@ -391,6 +396,7 @@
 		.green img:hover {
 			transform: rotate(-15deg);
 			transition: 0.3s;
+			transform: translateX(-2rem) rotate(-15deg);
 		}
 		.green h1 {
 			grid-column: 2;
@@ -421,8 +427,9 @@
 			justify-self: end;
 		}
 		.pink img:hover {
-			transform:  scaleX(-1) rotate(-15deg);
+			transform: rotate(-15deg);
 			transition: 0.3s;
+			transform: translateX(2rem) scaleX(-1) rotate(-15deg);
 		}
 		.pink h1 {
 			grid-column: 1;
@@ -453,6 +460,7 @@
 		.light-blue img:hover {
 			transform: rotate(-15deg);
 			transition: 0.3s;
+			transform: translateX(-2rem) rotate(-15deg);
 		}
 		.light-blue h1 {
 			grid-column: 2;
@@ -482,8 +490,10 @@
 			justify-self: end;
 		}
 		.dark-blue img:hover {
-			transform:  scaleX(-1) rotate(-15deg);
+			transform:  rotate(-15deg);
 			transition: 0.3s;
+			transform: translateX(2rem) scaleX(-1) rotate(-15deg);
+
 		}
 		.dark-blue h1 {
 			grid-column: 1;
@@ -514,6 +524,7 @@
 		.orange img:hover {
 			transform: rotate(-15deg);
 			transition: 0.3s;
+			transform: translateX(-2rem) rotate(-15deg);
 		}
 		.orange h1 {
 			grid-column: 2;
@@ -542,8 +553,10 @@
 			justify-self: end;
 		}
 		.purple img:hover {
-			transform:  scaleX(-1) rotate(-15deg);
+			transform:  rotate(-15deg);
 			transition: 0.3s;
+			transform: translateX(2rem) scaleX(-1) rotate(-15deg);
+
 		}
 		.purple h1 {
 			grid-column: 1;
@@ -573,6 +586,7 @@
 		.black img:hover {
 		transform: rotate(-15deg);
 		transition: 0.3s;
+		transform: translateX(-2rem) rotate(-15deg);
 		}
 		.black h1 {
 			grid-column: 2;
@@ -598,8 +612,10 @@
 			justify-self: end;
 		}
 		.red img:hover {
-			transform:  /*scaleX(-1)*/ rotate(15deg);
+			/*transform:  rotate(-15deg);*/
 			transition: 0.3s;
+			transform: translateX(2rem) scaleX(1) rotate(15deg);
+
 		}
 		.red h1 {
 			grid-column: 1;
@@ -648,8 +664,9 @@
 	font-family: 'Reenie Beanie', cursive;
 	text-align: left;
 	color: #91be13;
-	font-size: 80px;
-	padding-left: 1em
+	font-size: 100px;
+	padding-left: 1em;
+	margin-top: 0.5em;
 }
 
 .story p {
@@ -660,7 +677,7 @@
 	padding-left: 4em;
 	padding-right: 5em;
 	margin-top: 1em;
-	font-size: 16px;
+	font-size: 20px;
 	color: white;
 }
 /***********STORES****************************/
@@ -769,10 +786,10 @@
   margin-top: 0;
 }
 
-/*.more {
+.more {
   max-height: 100rem; 
 }
-*/
+
 /***********FORM STYLING****************************/
 form {
   display: grid;
